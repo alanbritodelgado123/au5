@@ -1,0 +1,46 @@
+:root {
+  --gruvbox-bg: #fbf1c7;
+  --gruvbox-bg1: #ebdbb2;
+  --gruvbox-bg2: #d5c4a1;
+  --gruvbox-fg: #3c3836;
+  --gruvbox-fg2: #504945;
+  --gruvbox-fg3: #665c54;
+  --gruvbox-gray: #928374;
+  --gruvbox-blue-dark: #076678;
+  --gruvbox-orange-dark: #af3a03;
+  --gruvbox-blue: #458588;
+}
+
+.slidev-layout {
+  background: var(--gruvbox-bg) !important;
+  color: var(--gruvbox-fg);
+  font-family: 'Inter', 'DejaVu Sans', sans-serif;
+}
+
+.slide-title {
+  color: var(--gruvbox-blue-dark);
+  font-size: 1.5em;
+  margin: 0 0 0.3em 0;
+  padding-bottom: 0.2em;
+  border-bottom: 3px solid var(--gruvbox-bg2);
+}
+
+.slidev-progress {
+  background: var(--gruvbox-blue-dark) !important;
+}
+
+code {
+  background: var(--gruvbox-bg1);
+  color: var(--gruvbox-orange-dark);
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+a {
+  color: var(--gruvbox-blue);
+}
+
+strong {
+  color: var(--gruvbox-fg);
+}
